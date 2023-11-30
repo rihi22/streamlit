@@ -1,16 +1,10 @@
 import streamlit as st
 import geopandas as gpd
 import pandas as pd
-from shapely.geometry import Point
+
 import numpy as np
 import folium
-import matplotlib.pyplot as plt
-import pydeck as pdk
-import contextily as ctx
-from folium.plugins import MarkerCluster
-from streamlit_folium import folium_static
-from streamlit_vega_lite import vega_lite_component
-from vega_datasets import data
+
 
 
 # Charger le fichier Shapefile des communes du Maroc
